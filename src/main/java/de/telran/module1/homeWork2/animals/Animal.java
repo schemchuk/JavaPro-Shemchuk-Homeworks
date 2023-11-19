@@ -1,6 +1,6 @@
-package de.telran.homeWork2.animals;
+package de.telran.module1.homeWork2.animals;
 
-import de.telran.homeWork2.humans.Eartlhing;
+import de.telran.module1.homeWork2.humans.Eartlhing;
 
 public class Animal extends Eartlhing {
     public String type = "Chord";

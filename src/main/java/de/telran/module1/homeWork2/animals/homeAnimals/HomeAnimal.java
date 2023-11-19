@@ -1,6 +1,6 @@
-package de.telran.homeWork2.animals.homeAnimals;
+package de.telran.module1.homeWork2.animals.homeAnimals;
 
-import de.telran.homeWork2.animals.Animal;
+import de.telran.module1.homeWork2.animals.Animal;
 
 public class HomeAnimal extends Animal {
     String  whereLive;

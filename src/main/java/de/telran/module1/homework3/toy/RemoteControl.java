@@ -1,4 +1,5 @@
 package de.telran.module1.homework3.toy;
 
-public class RemoteControl {
+public interface RemoteControl {
+    void remoteControl();
 }

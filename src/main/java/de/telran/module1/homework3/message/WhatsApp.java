@@ -1,13 +1,16 @@
 package de.telran.module1.homework3.message;
 
-public class WatsApp implements Messenger{
+public class WhatsApp implements Messenger{
+    private String lastMessage;
     @Override
     public void sendMessage(String message) {
-
+        System.out.println("Setting WHatsApp message: " + message);
+        lastMessage = message;
     }
 
     @Override
     public String getMessage() {
-        return null;
+        System.out.println("Receiving WhatsApp message: " + lastMessage);
+        return lastMessage;
     }
 }

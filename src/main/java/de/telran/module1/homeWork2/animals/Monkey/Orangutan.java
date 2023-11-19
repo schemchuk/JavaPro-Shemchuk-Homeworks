@@ -1,4 +1,4 @@
-package de.telran.homeWork2.animals.Monkey;
+package de.telran.module1.homeWork2.animals.Monkey;
 
 public class Orangutan extends ZooAnimals{
     public String species;

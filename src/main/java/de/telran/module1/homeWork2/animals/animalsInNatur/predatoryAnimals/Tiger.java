@@ -1,4 +1,4 @@
-package de.telran.homeWork2.animals.animalsInNatur.predatoryAnimals;
+package de.telran.module1.homeWork2.animals.animalsInNatur.predatoryAnimals;
 
 public class Tiger extends AnimalsOfNatur {
     public String species;

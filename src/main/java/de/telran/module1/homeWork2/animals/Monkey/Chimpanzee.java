@@ -1,6 +1,6 @@
-package de.telran.homeWork2.animals.Monkey;
+package de.telran.module1.homeWork2.animals.Monkey;
 
-import de.telran.homeWork2.animals.animalsInNatur.predatoryAnimals.AnimalsOfNatur;
+import de.telran.module1.homeWork2.animals.animalsInNatur.predatoryAnimals.AnimalsOfNatur;
 
 public class Chimpanzee extends AnimalsOfNatur {
     public String species;

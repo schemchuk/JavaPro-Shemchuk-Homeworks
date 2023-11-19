@@ -1,6 +1,6 @@
 package de.telran.module1.homework3.toy;
 
-public class tollCar implements Toy, RemoteControl, Drive{
+public class TollCar implements Toy, RemoteControl, Drive{
     @Override
     public void saveForChild() {
         System.out.println("I'm a save toy");

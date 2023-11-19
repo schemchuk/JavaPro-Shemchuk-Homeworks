@@ -1,4 +1,6 @@
 package de.telran.module1.homework3.message;
 
-public class Messenger {
+ public interface Messenger {
+    void sendMessage(String message);
+    String getMessage();
 }

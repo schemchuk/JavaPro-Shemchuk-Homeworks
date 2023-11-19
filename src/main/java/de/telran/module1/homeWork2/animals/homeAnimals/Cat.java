@@ -1,4 +1,4 @@
-package de.telran.homeWork2.animals.homeAnimals;
+package de.telran.module1.homeWork2.animals.homeAnimals;
 
 public class Cat extends HomeAnimal{
     public String species;

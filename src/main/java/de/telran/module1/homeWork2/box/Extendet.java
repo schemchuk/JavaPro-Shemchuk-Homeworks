@@ -1,4 +1,4 @@
-package de.telran.homeWork2.box;
+package de.telran.module1.homeWork2.box;
 
 public class Extendet {
     public static void main(String[] args) {

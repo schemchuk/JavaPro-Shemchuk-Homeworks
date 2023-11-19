@@ -1,4 +1,4 @@
-package de.telran.homeWork2.transports;
+package de.telran.module1.homeWork2.transports;
 
 public class Bus extends Car{
     String assistentDriver;

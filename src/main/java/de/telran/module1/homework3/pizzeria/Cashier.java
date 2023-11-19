@@ -1,4 +1,6 @@
 package de.telran.module1.homework3.pizzeria;
 
-public class Cashier {
+public interface Cashier {
+    void generateBill();
+    void takePayment();
 }

@@ -1,4 +1,8 @@
 package de.telran.module1.homework3.pizzeria;
 
-public class Waiter {
+public interface Waiter {
+    void takeOrder();
+    void serveOrder();
+    void cleanTable();
+    void takePayment();
 }

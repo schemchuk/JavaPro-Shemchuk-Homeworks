@@ -1,4 +1,4 @@
-package de.telran.homeWork2.humans;
+package de.telran.module1.homeWork2.humans;
 
 public class Coworker extends Human {
     String country = "Germany";

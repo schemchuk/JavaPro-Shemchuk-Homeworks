@@ -1,15 +1,15 @@
-package de.telran.homeWork2.animals;
+package de.telran.module1.homeWork2.animals;
 
-import de.telran.homeWork2.animals.animalsInNatur.predatoryAnimals.AnimalsOfNatur;
-import de.telran.homeWork2.animals.animalsInNatur.predatoryAnimals.Lion;
-import de.telran.homeWork2.animals.animalsInNatur.predatoryAnimals.Tiger;
-import de.telran.homeWork2.animals.homeAnimals.Cat;
-import de.telran.homeWork2.animals.homeAnimals.Cow;
-import de.telran.homeWork2.animals.homeAnimals.Dog;
-import de.telran.homeWork2.animals.homeAnimals.HomeAnimal;
-import de.telran.homeWork2.animals.Monkey.Chimpanzee;
-import de.telran.homeWork2.animals.Monkey.Orangutan;
-import de.telran.homeWork2.animals.Monkey.ZooAnimals;
+import de.telran.module1.homeWork2.animals.animalsInNatur.predatoryAnimals.AnimalsOfNatur;
+import de.telran.module1.homeWork2.animals.animalsInNatur.predatoryAnimals.Lion;
+import de.telran.module1.homeWork2.animals.animalsInNatur.predatoryAnimals.Tiger;
+import de.telran.module1.homeWork2.animals.homeAnimals.Cat;
+import de.telran.module1.homeWork2.animals.homeAnimals.Cow;
+import de.telran.module1.homeWork2.animals.homeAnimals.Dog;
+import de.telran.module1.homeWork2.animals.homeAnimals.HomeAnimal;
+import de.telran.module1.homeWork2.animals.Monkey.Chimpanzee;
+import de.telran.module1.homeWork2.animals.Monkey.Orangutan;
+import de.telran.module1.homeWork2.animals.Monkey.ZooAnimals;
 
 public class ShowAnimal extends Animal{
     public static void main(String[] args) {

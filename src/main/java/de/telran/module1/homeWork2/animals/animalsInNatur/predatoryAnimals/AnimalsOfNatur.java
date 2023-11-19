@@ -1,6 +1,6 @@
-package de.telran.homeWork2.animals.animalsInNatur.predatoryAnimals;
+package de.telran.module1.homeWork2.animals.animalsInNatur.predatoryAnimals;
 
-import de.telran.homeWork2.animals.Animal;
+import de.telran.module1.homeWork2.animals.Animal;
 
 public class AnimalsOfNatur extends Animal {
     public String  whereLive;
