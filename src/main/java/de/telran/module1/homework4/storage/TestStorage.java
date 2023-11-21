@@ -20,3 +20,5 @@ public class TestStorage {
         storage.pickProducts();
     }
 }
+
+// для работы с гитом
