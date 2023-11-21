@@ -1,9 +1,13 @@
 package de.telran.module1.homework4.chicken;
 
-public class ChuvashijaHen extends Hen{
+public class PolskaHen extends Hen{
+
     @Override
     int getCountOfEggsPerMonf() {
-
-        return 0;
+        return 30;
+    }
+    @Override
+    public String getDescription() {
+        return "My country is Poland. I get " + getCountOfEggsPerMonf() + " eggs a month";
     }
 }

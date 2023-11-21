@@ -1,4 +1,9 @@
 package de.telran.module1.homework4.chicken;
 
-public class Hen {
+public  abstract class Hen {
+    abstract int getCountOfEggsPerMonf();
+    String getDescription() {
+        return "I'm Ryaba's chicken";
+    }
+
 }
