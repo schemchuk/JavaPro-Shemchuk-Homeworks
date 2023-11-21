@@ -1,8 +1,6 @@
-package de.telran.module1.homework4.storage;
+package de.telran.module1.homework4.pizza;
 
-import de.telran.module1.homework4.pizza.Pizza;
-
-public class ExamplePizza {
+public class TestPizza {
     public static void main(String[] args) {
 
         Pizza pizzaCalculator = new Pizza();
