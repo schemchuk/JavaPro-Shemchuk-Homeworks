@@ -37,6 +37,5 @@ public class WhatWillWeDrink {
             default:
                 return "Наверное это тринадцатый месяц от NASA";
         }
-
     }
 }

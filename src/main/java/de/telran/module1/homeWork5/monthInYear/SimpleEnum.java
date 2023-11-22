@@ -16,7 +16,6 @@ public class SimpleEnum {
         MonthsInYear month12 = MonthsInYear.DECEMBER;
         MonthsInYear month13 = MonthsInYear.NEW_NASA_MONTH;
 
-
         WhatWillWeDrink whatWillWeDrink = new WhatWillWeDrink(MonthsInYear.NEW_NASA_MONTH);
 
 

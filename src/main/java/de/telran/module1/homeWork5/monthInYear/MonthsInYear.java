@@ -16,7 +16,6 @@ public enum MonthsInYear {
     NEW_NASA_MONTH("Пупень");
 
     private String title;
-
     public String getTitle() {
         return title;
     }

@@ -6,4 +6,4 @@
         WhatWillWeDrink whatWillWeDrink2 = new WhatWillWeDrink(MonthsInYear.JULY);
         WhatWillWeDrink whatWillWeDrink3 = new WhatWillWeDrink(MonthsInYear.SEPTEMBER);
 
-     так отработает только январь
+     так отработает только  январь
