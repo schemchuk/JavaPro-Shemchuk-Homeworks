@@ -1,0 +1,9 @@
+Александр, я не могу понять почему отрабатывает приложениу если вводить только один месяц
+
+
+        WhatWillWeDrink whatWillWeDrink = new WhatWillWeDrink(MonthsInYear.JANUARY);
+        WhatWillWeDrink whatWillWeDrink4 = new WhatWillWeDrink(MonthsInYear.APRIL);
+        WhatWillWeDrink whatWillWeDrink2 = new WhatWillWeDrink(MonthsInYear.JULY);
+        WhatWillWeDrink whatWillWeDrink3 = new WhatWillWeDrink(MonthsInYear.SEPTEMBER);
+
+     так отработает только январь
