@@ -12,6 +12,7 @@ public class ShowCoffeeMashine {
         coffeeMashine2.makeCoffeeWithCognac();
         coffeeMashine3.makeCongasWitoutCaffee();
 
+
         enumForCoffeemashine.makeBlackCoffee();
         enumForCoffeemashine.makeCoffeeWithCognac();
         enumForCoffeemashine.makeCongasWitoutCaffee();
