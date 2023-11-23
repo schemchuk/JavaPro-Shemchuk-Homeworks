@@ -6,8 +6,16 @@ public class ShowCoffeeMashine {
         CoffeeMashine coffeeMashine2 = CoffeeMashine.getInstance();
         CoffeeMashine coffeeMashine3 = CoffeeMashine.getInstance();
 
+         EnumForCoffeemashine enumForCoffeemashine = EnumForCoffeemashine.INSTANCE;
+
         coffeeMashine1.makeBlackCoffee();
         coffeeMashine2.makeCoffeeWithCognac();
         coffeeMashine3.makeCongasWitoutCaffee();
+
+        enumForCoffeemashine.makeBlackCoffee();
+        enumForCoffeemashine.makeCoffeeWithCognac();
+        enumForCoffeemashine.makeCongasWitoutCaffee();
+
+
     }
 }
