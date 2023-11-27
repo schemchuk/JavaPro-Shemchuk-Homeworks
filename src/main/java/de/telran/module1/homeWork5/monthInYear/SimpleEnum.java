@@ -16,7 +16,10 @@ public class SimpleEnum {
         MonthsInYear month12 = MonthsInYear.DECEMBER;
         MonthsInYear month13 = MonthsInYear.NEW_NASA_MONTH;
 
-        WhatWillWeDrink whatWillWeDrink = new WhatWillWeDrink(MonthsInYear.NEW_NASA_MONTH);
+
+        WhatWillWeDrink whatWillWeDrink = new WhatWillWeDrink(MonthsInYear.APRIL);
+        WhatWillWeDrink whatWillWeDrink2 = new WhatWillWeDrink(MonthsInYear.JULY);
+        WhatWillWeDrink whatWillWeDrink3 = new WhatWillWeDrink(MonthsInYear.SEPTEMBER);
 
 
         if(whatWillWeDrink.determineSeason().equals("Winter")) {
