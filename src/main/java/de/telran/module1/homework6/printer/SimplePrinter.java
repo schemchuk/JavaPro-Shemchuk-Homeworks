@@ -6,3 +6,4 @@ public class SimplePrinter {
         printer.checkPrinterStatus();
     }
 }
+//

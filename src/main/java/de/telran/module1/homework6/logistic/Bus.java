@@ -1,6 +1,6 @@
 package de.telran.module1.homework6.logistic;
 
-public class Bus implements Transport{
+public class Bus implements Transport {
     @Override
     public String nameTransport() {
         return "Bus";
@@ -16,5 +16,7 @@ public class Bus implements Transport{
         return 8.0;
     }
 }
+
+//
 
 

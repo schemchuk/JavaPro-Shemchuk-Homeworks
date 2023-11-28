@@ -6,3 +6,4 @@ public interface Transport {
 
      double getTripDuration() ;
 }
+

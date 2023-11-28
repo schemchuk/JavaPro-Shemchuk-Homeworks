@@ -20,5 +20,4 @@ public class Printer {
             System.out.println("Printer is free. You can use it.");
         }
     }
-
 }
