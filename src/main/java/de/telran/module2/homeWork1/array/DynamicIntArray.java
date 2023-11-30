@@ -1,4 +1,4 @@
-package de.telran.module2.array;
+package de.telran.module2.homeWork1.array;
 
 
 public class DynamicIntArray {
