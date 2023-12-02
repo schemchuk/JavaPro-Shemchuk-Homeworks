@@ -1,4 +1,4 @@
-package de.telran.module2.homeWork2.realis;
+package de.telran.module2.homeWork2.metods;
 
 public class UnidirectionIntLinkedList {
     //Инициация переменной и класса для хранения
