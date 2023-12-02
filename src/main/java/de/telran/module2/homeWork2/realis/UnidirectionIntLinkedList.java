@@ -102,4 +102,74 @@ public class UnidirectionIntLinkedList {
         return oldValue;
     }
 
+    // удаление елементов по указаному индексу
+
+    public int remove(int index) {
+        if (index < 0 || index >= size) {
+            System.out.println("Индекс не попадает в заданные рамки");
+        }
+        int removedValue;
+        if (index == 0) {
+            removedValue = head.item;
+            head = head.next;
+        } else {
+            Node current = head;
+            for (int i = 0; i < index - 1; i++) {
+                current = current.next;
+            }
+            removedValue = current.next.item;
+            current.next = current.next.next;
+        }
+        size--;
+        return removedValue;
+    }
+
+    //удаление первого елемента
+
+    public int removeFirst() {
+        if (size == 0){
+            System.out.println("нечего удалять");
+        }
+        return remove(0);
+    }
+
+    //удаление элемента с конца списка
+    public int removeLast(){
+        if (size == 0){
+            System.out.println("нечего удалять");
+        }
+        return remove(size - 1);
+    }
+
+    // Возвращаем индекс, усли элемент найден
+    public int indexOf(int value) {
+        Node current = head;
+        for (int i = 0; i < size; i++) {
+            if (current.item == value) {
+                return i;
+            }
+            current = current.next;
+        }
+        return -1;
+    }
+    //Проверяет наличие элемента в списке. Использует indexOf и возвращает true, если элемент найден.
+
+    public boolean contains(int value) {
+        return indexOf(value) != -1;
+    }
+    // Метод для очистки списка
+    public void clear() {
+        size = 0;
+        head = null;
+    }
+
+    // Метод для получения текущего размера списка
+    public int size() {
+        return size;
+    }
+
+    // Метод для проверки, пуст ли список
+    public boolean isEmpty() {
+        return size == 0;
+    }
 }
