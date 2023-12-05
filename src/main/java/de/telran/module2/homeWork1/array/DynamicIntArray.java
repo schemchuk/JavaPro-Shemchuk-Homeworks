@@ -1,7 +1,14 @@
 package de.telran.module2.homeWork1.array;
 
 
-public class DynamicIntArray {
+import javax.swing.text.html.HTMLDocument;
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class DynamicIntArray implements Iterator {
+
+    int index = -1;
+
     private static final int DEFAULT_CAPACITY = 10; // Начальный размер массива по умолчанию
     private static final int PROCENT_CHANGE = 50;   // % изменения размера массива при автоматическом увеличении
 
@@ -93,4 +100,46 @@ public class DynamicIntArray {
     }
 
 
+    @Override
+    public boolean hasNext() {
+       if ( length == 0 ) {
+           return false;
+       }
+       if (index == -1) {
+           return true;
+       }
+       if (index < length - 1){
+           return true;
+       }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        int[] temp = new int[length];
+        for (int l = 0; l < length; l++) {
+           temp[l] = arr[l];
+        }
+        return Arrays.toString(temp) ;
+    }
+
+    @Override
+    public Object next() {
+        if (length == 0){
+            return null;
+        }
+        if (index == -1){
+            index++;
+            return arr[0];
+        }
+        if (index == length -1){
+            return null;
+        }
+        index++;
+        return arr[index];
+    }
+
+    public Iterator<Integer> iterator() {
+        return this;
+    }
 }
