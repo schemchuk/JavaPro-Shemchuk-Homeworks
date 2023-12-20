@@ -13,7 +13,6 @@ public class SimpleWork {
         // Изменение задачи в любое время
         tasks.add(() -> "Красить стены");
         tasks.add(() -> "Принеси не знаю чего");
-
         // Начать рабочий день
         startWorking(tasks);
     }

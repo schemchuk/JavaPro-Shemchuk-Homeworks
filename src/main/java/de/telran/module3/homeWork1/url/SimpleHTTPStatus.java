@@ -9,6 +9,7 @@ public class SimpleHTTPStatus {
         HttpCodesConsumer.findValueByCode(303);
         HttpCodesConsumer.findValueByCode(404);
         HttpCodesConsumer.findValueByCode(505);
+
     }
 }
 

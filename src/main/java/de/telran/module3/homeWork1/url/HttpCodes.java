@@ -29,6 +29,7 @@ public enum HttpCodes {
             if(code >=v.minCode && code<=v.maxCode) {
                 v.valAction.accept(code, v);
                 break;
+
             }
         }
     }
