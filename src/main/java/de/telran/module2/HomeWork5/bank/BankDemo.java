@@ -36,7 +36,10 @@ public class BankDemo {
             } else {
                 System.out.println("Обслуживание клиента: " + ticket.getFullName());
             }
+            
         }
 
+
     }
+
 }
