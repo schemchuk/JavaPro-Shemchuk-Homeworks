@@ -24,6 +24,7 @@ public class CopyFile {
                 System.out.println("Output error");   //  обработка оибок вывода
             }
         } catch (IOException exception) {
+
             System.out.println("Input error");  //  обработка ошибок ввода
         }
     }

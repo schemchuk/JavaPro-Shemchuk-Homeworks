@@ -24,6 +24,7 @@ public class CopyDirectory {
 
         // Проверяем, существует ли исходная директория
         if (!sourceDirectory.exists()) {
+
             System.out.println("Исходная директория не существует.");
             return;
         }
