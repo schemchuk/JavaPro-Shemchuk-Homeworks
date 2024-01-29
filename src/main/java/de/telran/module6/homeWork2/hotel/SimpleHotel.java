@@ -1,4 +1,4 @@
-package de.telran.module6.homeWork2;
+package de.telran.module6.homeWork2.hotel;
 
 import de.telran.module6.homeWork2.hotel.Request;
 import de.telran.module6.homeWork2.hotel.Response;
@@ -11,8 +11,6 @@ public class SimpleHotel {
         Request request = new Request(interaction);
         Response response = new Response(interaction);
     }
-
-
 }
 //. Вы въезжаете в отель и подходите к стойке администратора. За стойкой никого нет, но на ней стоит звоночек, используя который Вы можете позвать администратора. Т.к. наплыв гостей очень редко бывает большим, чтобы организовывалась очередь, администратор обычно "уходит по своим делам", обслужив Вас и ждет следующего звонка.
 //Напишите программу, которая автоматизирует данный процесс обслуживания.
