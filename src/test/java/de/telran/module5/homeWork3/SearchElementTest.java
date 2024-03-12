@@ -1,5 +1,6 @@
 package de.telran.module5.homeWork3;
 
+import de.telran.homeWorks_22_08.module1.module5.homeWork3.SearchElement;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
