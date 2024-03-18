@@ -1,8 +1,8 @@
-package de.telran.javaPro.lections.lesson_24_03_18.emploers;
+package de.telran.myNewsGroup.module2.homeWork3.emploers;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Collections;
+import java.util.List;
 
 public class SimpleEmploee {
     public static void main(String[] args) {

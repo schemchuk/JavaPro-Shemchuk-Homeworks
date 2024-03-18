@@ -48,6 +48,7 @@ public class GreatingTypsWorkers {
             public void haveRest() {
                 System.out.println("Пора выдвигаться в шашлычную.");
             }
+
         }
     }
 

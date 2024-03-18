@@ -1,4 +1,4 @@
-package de.telran.javaPro.lections.lesson_24_03_18.emploers;
+package de.telran.myNewsGroup.module2.homeWork3.emploers;
 
 import java.util.Comparator;
 

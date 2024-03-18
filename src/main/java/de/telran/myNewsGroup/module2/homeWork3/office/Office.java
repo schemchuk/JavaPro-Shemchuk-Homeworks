@@ -18,5 +18,6 @@ public class Office {
        laseWorker.doTask(new Task("Task1","Выполнение работы"));
        laseWorker.haveRest();
 
+
     }
 }
