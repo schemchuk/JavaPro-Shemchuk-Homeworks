@@ -1,4 +1,4 @@
-package de.telran.javaPro.summary.work_24_03_15.works.office;
+package de.telran.myNewsGroup.module2.homeWork3.office;
 
 public  class Task {
     private String name;
