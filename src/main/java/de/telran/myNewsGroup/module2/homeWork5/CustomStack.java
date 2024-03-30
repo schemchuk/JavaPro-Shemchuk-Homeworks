@@ -1,8 +1,9 @@
 package de.telran.myNewsGroup.module2.homeWork5;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
-public class CustomStack<T>{
+public class CustomStack<T> {
     private LinkedList<T> stack;
 
     public CustomStack(){
@@ -38,6 +39,7 @@ public class CustomStack<T>{
             return stack.isEmpty();
         }
 
+
         public static void main (String[]args){
             CustomStack<Integer> customStack = new CustomStack<>();
             customStack.stack.push(1);
@@ -45,8 +47,10 @@ public class CustomStack<T>{
             customStack.stack.push(3);
 
             System.out.println("Cостав коллекции: ");
-            for (int i : customStack.stack)
-            System.out.println(i);
+            for (int i : customStack.stack){
+                System.out.println(i);
+            }
+
 
             System.out.println("Размер стека: " + customStack.size());
             System.out.println("Верхний элемент стека: " + customStack.peek());
@@ -60,5 +64,6 @@ public class CustomStack<T>{
 
         }
 
-    }
+
+}
 
