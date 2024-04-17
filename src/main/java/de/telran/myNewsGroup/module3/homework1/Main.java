@@ -1,10 +1,7 @@
 package de.telran.myNewsGroup.module3.homework1;
 
 import java.io.PrintStream;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Random;
+import java.util.*;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
