@@ -36,7 +36,7 @@ public class Exsample2 {
     public static List<String> methodStream(List<String> strings){
 
         return strings.stream()
-                .filter(s -> s.contains(s))
+               // .filter(s -> s.contains(s))
                 .distinct()
                 .toList();
 
