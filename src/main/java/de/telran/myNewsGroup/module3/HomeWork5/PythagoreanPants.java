@@ -17,5 +17,6 @@ public class PythagoreanPants {
 //                        .collect(Collectors.toList());
 
 
+
     }
 }

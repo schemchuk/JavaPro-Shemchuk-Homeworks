@@ -44,13 +44,17 @@ public class SimpleCat {
         System.out.println(colorToNameSetMap);
 //                - Получить Map<Integer, Integer> возраст / количество белых кошек данного возраста
 
-        Map<Integer, Integer> ageWhiteCatsCountMap = catList.stream()
-                .filter(cat -> cat.getColor().equals("white"))
-                .collect(Collectors.groupingBy(
-                        cat -> cat.getAge(),
-                        Collectors.collectingAndThen(Collectors.counting(), Long::intValue)
+  //      Map<Integer, Integer> ageWhiteCatsCountMap = catList.stream()
+//                .filter(cat -> cat.getColor().equals("white"))
+//                .collect(Collectors.groupingBy(
+//                        cat -> cat.getAge(),
+//                        Collectors.collectingAndThen(Collectors.counting(), Long::intValue)
+        // ));
+        //System.out.println(ageWhiteCatsCountMap);
+        Map<Integer, Integer> collect = catList.stream()
+                .collect(Collectors.toMap(Cat::getAge, cat -> cat.getColor().equals("white") ? 1 : 0, Integer::sum));
+        System.out.println(collect);
 
-                ));
-        System.out.println(ageWhiteCatsCountMap);
+
     }
 }
