@@ -2,7 +2,7 @@ package de.telran.myNewsGroup.module4.homeWork1.exceptions;
 
 public class WrongPasswordException extends Exception {
     public WrongPasswordException() {
-        super();
+       // super();
     }
 
     public WrongPasswordException(String message) {
