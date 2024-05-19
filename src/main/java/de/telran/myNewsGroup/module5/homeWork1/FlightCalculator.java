@@ -1,8 +1,6 @@
-package de.telran.myNewsGroup.module5;
+package de.telran.myNewsGroup.module5.homeWork1;
 
-import java.time.LocalDate;
 import java.time.LocalTime;
-import java.time.ZoneId;
 import java.util.Calendar;
 import java.util.TimeZone;
 

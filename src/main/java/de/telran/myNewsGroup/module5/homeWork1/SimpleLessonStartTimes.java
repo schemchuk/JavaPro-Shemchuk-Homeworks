@@ -1,4 +1,4 @@
-package de.telran.myNewsGroup.module5;
+package de.telran.myNewsGroup.module5.homeWork1;
 
 import java.time.*;
 import java.util.ArrayList;
