@@ -32,11 +32,4 @@ public class RemoveDuplicates {
         return result;
     }
 
-    public static void main(String[] args) {
-        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
-        int[] array = {0,3,-2,4,3,2};
-        System.out.println(Arrays.toString(removeDuplicates(array)));
-
-    }
-
 }

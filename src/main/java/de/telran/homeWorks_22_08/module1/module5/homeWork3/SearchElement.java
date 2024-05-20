@@ -17,7 +17,7 @@ public class SearchElement {
         }
     }
 
-    static int[] findRecesElements(int[] array1, int[] array2) {
+    public static int[] findRecesElements(int[] array1, int[] array2) {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> resultSet = new HashSet<>();
 
