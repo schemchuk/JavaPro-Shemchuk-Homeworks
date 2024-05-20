@@ -8,7 +8,8 @@ import java.util.List;
 
 public class TopKWithPriorityQueueTest {
     /**
-     * Напишите тест для метода topKWithPriorityQueue() в классе lesson20240408.TopKTask
+     * Напишите тест для метода topKWithPriorityQueue()
+     * в классе lesson20240408.TopKTask
      */
     @Test
     public void testTopKWithPriorityQueue() {

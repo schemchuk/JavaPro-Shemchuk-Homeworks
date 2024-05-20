@@ -15,6 +15,7 @@ public class FindCommondElements {
      * <p>
      * example expected:
      * [1,7]
+     *
      */
 
     public static List<Integer> findCommonElements(int[] arr1, int[] arr2) {

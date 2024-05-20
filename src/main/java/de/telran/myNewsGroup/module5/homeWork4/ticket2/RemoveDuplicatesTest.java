@@ -13,6 +13,5 @@ public class RemoveDuplicatesTest {
         int[] result = RemoveDuplicates.removeDuplicates(input);
 
         assertArrayEquals(expected,result);
-
     }
 }

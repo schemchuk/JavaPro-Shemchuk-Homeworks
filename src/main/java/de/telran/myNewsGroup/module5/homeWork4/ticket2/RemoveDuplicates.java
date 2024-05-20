@@ -10,6 +10,7 @@ public class RemoveDuplicates {
      * <p>
      * example expected:
      * [0,3,-2,4,2]
+     *
      */
     public static int[] removeDuplicates(int[] array) {
         Set<Integer> set = new HashSet<>();

@@ -17,5 +17,6 @@ public class FindCommonElementsTest {
         List<Integer> result = FindCommondElements.findCommonElements(array1, array2);
 
         assertEquals(expected, result);
+
     }
 }
