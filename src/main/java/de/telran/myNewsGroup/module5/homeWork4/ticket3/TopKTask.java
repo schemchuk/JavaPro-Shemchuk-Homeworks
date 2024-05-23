@@ -17,6 +17,19 @@ public class TopKTask {
         }
 
         @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Item item = (Item) o;
+            return Objects.equals(name, item.name) && Objects.equals(price, item.price);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(name, price);
+        }
+
+        @Override
         public String toString() {
             return "Item{" +
                     "name='" + name + '\'' +
