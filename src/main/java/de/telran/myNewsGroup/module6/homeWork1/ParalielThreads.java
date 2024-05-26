@@ -66,6 +66,9 @@ public class ParalielThreads {
     public static  int countWithoutTreads(int number) {
         int count = 0;
         for (int i = Integer.MIN_VALUE; i <= Integer.MAX_VALUE; i++) {
+            if (number == 0) {
+                throw new ArithmeticException();
+            }
             if( i % number == 0) {
                 count++;
             }
