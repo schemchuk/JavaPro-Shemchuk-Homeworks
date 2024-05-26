@@ -1,4 +1,4 @@
-package de.telran.myNewsGroup.module6.homeWork1;
+package de.telran.homeWorks_22_08.experiments;
 
 public class ThroadsForInteger {
     /**
