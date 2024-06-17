@@ -1,8 +1,8 @@
 package de.telran.myNewsGroup.module7.homeWork1.annotation;
 
-import lombok.Data;
 
-@Data
+
+
 public class Student {
     /*
     Имеется класс Student с полями name, surname, age.

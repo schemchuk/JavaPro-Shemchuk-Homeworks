@@ -31,7 +31,7 @@ public class School {
                     StudentInfo annotation = field.getAnnotation(StudentInfo.class);
                     field.setAccessible(true); // should work on private fields
                     try {
-                        Student student = new Student(annotation.name(), annotation.surname(), annotation.age());
+                       Student student = new Student(annotation.name(), annotation.surname(), annotation.age());
                         field.set(instance, student);
                     } catch (Exception e) {
                         e.printStackTrace();
